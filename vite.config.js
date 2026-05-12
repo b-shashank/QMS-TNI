@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://quality-management-system-backend.onrender.com",
+      "/api": "https://qms-tni-backend.onrender.com",
     },
   },
 });
